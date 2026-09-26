@@ -1,159 +1,159 @@
 # FarmingLive25
 
-Bringt zufällige Chaos-Events in den Farming Simulator 25 – vom blockierten Motor über invertierte Steuerung bis zum Reifenplatzer. Alle Events lassen sich direkt im Spiel per Tastendruck oder Konsole auslösen. Optional kann FarmingLive zusammen mit einer separaten Twitch-App verwendet werden, damit Zuschauer diese Events per Chat-Befehl oder Kanalpunkten selbst auslösen können.
+Adds random chaos events to Farming Simulator 25 – from a blocked engine and inverted controls to a flat tire. All events can be triggered directly in-game via a hotkey or the console. Optionally, FarmingLive can be used together with a separate Twitch app so viewers can trigger these events via chat commands or channel points.
 
-## Inhaltsverzeichnis
+## Table of Contents
 
 - [Installation](#installation)
-- [Event-Menü (Taste 0)](#event-menü-taste-0)
-- [Events im Überblick](#events-im-überblick)
-- [Konsolenbefehle](#konsolenbefehle)
-  - [Event-Steuerung](#event-steuerung)
-  - [Warteschlange](#warteschlange)
-  - [Konfiguration](#konfiguration)
-  - [Nachrichten-System](#nachrichten-system)
-- [Twitch-Integration (optional)](#twitch-integration-optional)
-  - [Twitch-Chat-Befehle](#twitch-chat-befehle)
-- [Mehrsprachigkeit](#mehrsprachigkeit)
+- [Event Menu (Key 0)](#event-menu-key-0)
+- [Events Overview](#events-overview)
+- [Console Commands](#console-commands)
+  - [Event Control](#event-control)
+  - [Queue](#queue)
+  - [Configuration](#configuration)
+  - [Message System](#message-system)
+- [Twitch Integration (optional)](#twitch-integration-optional)
+  - [Twitch Chat Commands](#twitch-chat-commands)
+- [Languages](#languages)
 - [Multiplayer](#multiplayer)
 - [Support & Feedback](#support--feedback)
 
 ## Installation
 
-1. Mod wie gewohnt über den ModHub oder als `.zip` im `mods`-Ordner von Farming Simulator 25 installieren.
-2. Im Spiel aktivieren.
-3. Fertig – der Mod funktioniert direkt ohne weitere Einrichtung.
+1. Install the mod as usual via ModHub or as a `.zip` in the Farming Simulator 25 `mods` folder.
+2. Enable it in-game.
+3. Done – the mod works right away without any extra setup.
 
-Die optionale Twitch-App wird **nicht** benötigt, damit der Mod funktioniert – sie erweitert ihn nur um die Zuschauer-Interaktion (siehe [Twitch-Integration](#twitch-integration-optional)).
+The optional Twitch app is **not** required for the mod to work – it only extends it with viewer interaction (see [Twitch Integration](#twitch-integration-optional)).
 
-## Event-Menü (Taste 0)
+## Event Menu (Key 0)
 
-Der einfachste Weg, ein Event auszulösen: Taste **`0`** drücken. Es öffnet sich ein Auswahlmenü, in dem du mit den Pfeilen ein Event auswählst und mit **OK** auslöst.
+The easiest way to trigger an event: press key **`0`**. A selection menu opens where you can pick an event with the arrows and trigger it with **OK**.
 
-## Events im Überblick
+## Events Overview
 
-Alle Events haben eine zufällige Laufzeit/Intensität (über die Config einstellbar, siehe [Konfiguration](#konfiguration)).
+All events have a randomized duration/intensity (configurable, see [Configuration](#configuration)).
 
-| Event | Beschreibung |
+| Event | Description |
 |---|---|
-| `adjustDiesel` | Diesel-Füllstand zufällig ändern |
-| `AdjustMoney` | Geld zufällig ändern |
-| `AttachmentDrop` | Anbaugerät abwerfen |
-| `lockDoor` | Motor blockieren & Tür verriegeln |
-| `BlockEngine` | Motor blockieren |
-| `cameraFun` | Kamera-Spaß |
-| `lockInteriorCam` | In Innenkamera einsperren |
-| `ClearAll` | Tank leeren |
-| `detachAll` | Alle Anbaugeräte abkoppeln |
-| `BlockTab` | Fahrzeugwechsel sperren |
-| `DriveThat` | Zufälliges Fahrzeug erzwingen |
-| `SetDrivingDirection` | Fahrtrichtung erzwingen |
-| `FadeScreen` | Bildschirm abdunkeln |
-| `FlatTire` | Reifenplatzer |
-| `SteerBan` | Lenkrichtung verbieten |
-| `HonkiHonkiHonk` | Hupe aktivieren |
-| `InvertControls` | Steuerung invertieren |
-| `launchVehicle` | Fahrzeug in die Luft schießen |
-| `MathGame` | Matherätsel |
-| `Uselessnotifi` | Nutzlose Benachrichtigung |
-| `showSimu` | Simu-Nachricht anzeigen |
-| `showHi` | Grußnachricht anzeigen |
-| `RandomCam` | Zufällige Kamera |
-| `RandomSteer` | Zufällige Lenkstörung |
-| `RandomTabTrap` | Tab-Falle (mehrfacher Fahrzeugwechsel) |
-| `SetBroken` | Fahrzeug kaputt setzen |
-| `SetDirt` | Fahrzeug einschmutzen |
-| `SpeedLimit` | Geschwindigkeitsbegrenzung setzen |
-| `MassChange` | Gewicht temporär erhöhen |
-| `SetRandomTime` | Zufällige Uhrzeit setzen |
-| `TireParty` | Reifen-Hüpfparty |
-| `TireChaos` | Reifen-Chaos (zufällig FlatTire oder TireParty) |
-| `SwitchSeat` | Fahrzeug wechseln |
-| `LockOut` | Aus Fahrzeug aussperren |
-| `GoWalk` | Spieler zum Laufen zwingen |
-| `toggleWipers` | Scheibenwischer umschalten |
-| `UselessBox` | Infobox anzeigen |
+| `adjustDiesel` | Randomize diesel level |
+| `AdjustMoney` | Randomly change money |
+| `AttachmentDrop` | Drop an attachment |
+| `lockDoor` | Block engine & lock door |
+| `BlockEngine` | Block engine |
+| `cameraFun` | Camera fun |
+| `lockInteriorCam` | Lock inside interior camera |
+| `ClearAll` | Empty fuel tank |
+| `detachAll` | Detach all implements |
+| `BlockTab` | Block vehicle switching |
+| `DriveThat` | Force random vehicle |
+| `SetDrivingDirection` | Enforce driving direction |
+| `FadeScreen` | Fade screen |
+| `FlatTire` | Flat tire |
+| `SteerBan` | Forbid steering direction |
+| `HonkiHonkiHonk` | Trigger horn |
+| `InvertControls` | Invert controls |
+| `launchVehicle` | Launch vehicle |
+| `MathGame` | Math game |
+| `Uselessnotifi` | Useless notification |
+| `showSimu` | Show Simu message |
+| `showHi` | Show greeting |
+| `RandomCam` | Random camera |
+| `RandomSteer` | Random steering interference |
+| `RandomTabTrap` | Tab trap (forced vehicle switching) |
+| `SetBroken` | Break vehicle |
+| `SetDirt` | Get vehicle dirty |
+| `SpeedLimit` | Set speed limit |
+| `MassChange` | Temporarily increase mass |
+| `SetRandomTime` | Set random time |
+| `TireParty` | Tire bounce party |
+| `TireChaos` | Random tire chaos (randomly picks FlatTire or TireParty) |
+| `SwitchSeat` | Switch vehicle |
+| `LockOut` | Lock player out of vehicle |
+| `GoWalk` | Force player to walk |
+| `toggleWipers` | Toggle wipers |
+| `UselessBox` | Show info box |
 
-## Konsolenbefehle
+## Console Commands
 
-Konsole im Spiel öffnen (Standard: `°`/`^` oder in den Spieleinstellungen nachschauen) und folgende Befehle nutzen.
+Open the in-game console (default: `°`/`^`, check your game settings) and use the following commands.
 
-### Event-Steuerung
+### Event Control
 
-| Befehl | Beschreibung |
+| Command | Description |
 |---|---|
-| `flEventList` | Listet alle registrierten Event-Commands |
-| `flEventRun <command> [player] [input]` | Startet ein Event manuell, z.B. `flEventRun MathGame Console` |
-| `flEventStop` | Stoppt das aktive Event bestmöglich und leert alle Warteschlangen |
-| `flEventDisable <command>` | Deaktiviert ein Event-Command |
-| `flEventEnable <command>` | Aktiviert ein Event-Command wieder |
-| `flEventStatus` | Zeigt Status von aktivem Event und Warteschlangen |
-| `flEventCooldowns` | Zeigt letzte Ausführungen / Cooldowns je Event |
+| `flEventList` | Lists all registered event commands |
+| `flEventRun <command> [player] [input]` | Manually starts an event, e.g. `flEventRun MathGame Console` |
+| `flEventStop` | Best-effort stop of the active event and clears all queues |
+| `flEventDisable <command>` | Disables an event command |
+| `flEventEnable <command>` | Re-enables an event command |
+| `flEventStatus` | Shows the status of the active event and queues |
+| `flEventCooldowns` | Shows last runs / cooldowns per event |
 
-### Warteschlange
+### Queue
 
-| Befehl | Beschreibung |
+| Command | Description |
 |---|---|
-| `flQueueList` | Listet XML-, Event- und Fahrzeug-Warteschlangen |
-| `flQueueClear` | Leert alle Warteschlangen |
-| `flQueueRemove <index>` | Entfernt einen Warteschlangen-Eintrag nach Index |
-| `flQueuePause` | Pausiert die Warteschlangen |
-| `flQueueResume` | Setzt die Warteschlangen fort |
-| `flQueueRunNext` | Führt den nächsten Warteschlangen-Eintrag sofort aus |
+| `flQueueList` | Lists XML, event, and vehicle queues |
+| `flQueueClear` | Clears all queues |
+| `flQueueRemove <index>` | Removes a queue entry by index |
+| `flQueuePause` | Pauses the queues |
+| `flQueueResume` | Resumes the queues |
+| `flQueueRunNext` | Immediately runs the next queue entry |
 
-### Konfiguration
+### Configuration
 
-| Befehl | Beschreibung |
+| Command | Description |
 |---|---|
-| `flCfgGet <pfad>` | Liest einen Config-Wert, z.B. `flCfgGet setSpeed.maxspeed` |
-| `flCfgSet <pfad> <wert>` | Setzt einen Config-Wert, z.B. `flCfgSet setSpeed.maxspeed 22` |
-| `flCfgList [section]` | Listet Config-Werte, z.B. `flCfgList tireParty` |
-| `flCfgSearch <text>` | Sucht Config-Pfade, z.B. `flCfgSearch steer` |
-| `flCfgReload` | Lädt die Runtime-Config neu aus der XML |
-| `flCfgFile` | Zeigt den Pfad der Config-Datei |
-| `flCfgHelp` | Zeigt Hilfe zu allen Config-Commands |
+| `flCfgGet <path>` | Reads a config value, e.g. `flCfgGet setSpeed.maxspeed` |
+| `flCfgSet <path> <value>` | Sets a config value, e.g. `flCfgSet setSpeed.maxspeed 22` |
+| `flCfgList [section]` | Lists config values, e.g. `flCfgList tireParty` |
+| `flCfgSearch <text>` | Searches config paths, e.g. `flCfgSearch steer` |
+| `flCfgReload` | Reloads the runtime config from the XML file |
+| `flCfgFile` | Shows the path of the config file |
+| `flCfgHelp` | Shows help for all config commands |
 
-Die Config-Datei liegt unter `.../modSettings/FS25_FarmingLive/FarmingLiveConfig.xml` und wird beim ersten Start automatisch angelegt.
+The config file is located at `.../modSettings/FS25_FarmingLive/FarmingLiveConfig.xml` and is created automatically on first start.
 
-### Nachrichten-System
+### Message System
 
-FarmingLive hat ein eigenes Nachrichten-/HUD-System mit vielen Anzeige-Modi.
+FarmingLive has its own message/HUD system with many display modes.
 
-| Befehl | Beschreibung |
+| Command | Description |
 |---|---|
-| `flMessageMode <mode1[+mode2...]>` | Setzt den/die aktiven Anzeige-Modi, z.B. `flMessageMode warning+banner` |
-| `flMessageTest <text>` | Zeigt eine Testnachricht im aktuellen Modus |
-| `flMessageClear` | Blendet alle aktiven Nachrichten aus |
-| `flMessagePos <mode> <x> <y>` | Setzt die Position eines Modus |
-| `flMessageScale <mode> <wert>` | Setzt die Textgröße eines Modus |
-| `flMessageWidth <mode> <w> <h>` | Setzt die Breite/Höhe eines Modus |
-| `flMessageAlign <mode> <left\|center\|right>` | Setzt die Textausrichtung |
-| `flMessageText <mode> <r> <g> <b> <a>` | Setzt die Textfarbe (0–255) |
-| `flMessageBg <mode> <r> <g> <b> <a>` | Setzt die Hintergrundfarbe (0–255) |
-| `flMessageFrame <mode> <on\|off> <r> <g> <b> <a>` | Aktiviert/deaktiviert einen Rahmen und setzt dessen Farbe |
-| `flMessageReset <mode\|all>` | Setzt einen Modus oder alle Modi auf Standard zurück |
+| `flMessageMode <mode1[+mode2...]>` | Sets the active display mode(s), e.g. `flMessageMode warning+banner` |
+| `flMessageTest <text>` | Shows a test message in the current mode |
+| `flMessageClear` | Hides all active messages |
+| `flMessagePos <mode> <x> <y>` | Sets the position of a mode |
+| `flMessageScale <mode> <value>` | Sets the text size of a mode |
+| `flMessageWidth <mode> <w> <h>` | Sets the width/height of a mode |
+| `flMessageAlign <mode> <left\|center\|right>` | Sets the text alignment |
+| `flMessageText <mode> <r> <g> <b> <a>` | Sets the text color (0–255) |
+| `flMessageBg <mode> <r> <g> <b> <a>` | Sets the background color (0–255) |
+| `flMessageFrame <mode> <on\|off> <r> <g> <b> <a>` | Enables/disables a frame and sets its color |
+| `flMessageReset <mode\|all>` | Resets one mode or all modes to default |
 
-**Verfügbare Modi:** `warning` (Standard), `headline`, `banner`, `top`, `topSlim`, `big`, `center`, `lowCenter`, `subtitle`, `objective`, `midLeft`, `midRight`, `leftToast`, `rightToast`, `toast`, `mini`, `slim`, `twitch`, `danger`, `success`, `radio`, `chip`, `neon`
+**Available modes:** `warning` (default), `headline`, `banner`, `top`, `topSlim`, `big`, `center`, `lowCenter`, `subtitle`, `objective`, `midLeft`, `midRight`, `leftToast`, `rightToast`, `toast`, `mini`, `slim`, `twitch`, `danger`, `success`, `radio`, `chip`, `neon`
 
-## Twitch-Integration (optional)
+## Twitch Integration (optional)
 
-FarmingLive kann optional zusammen mit einer separaten **FarmingLive-App** (EXE) verwendet werden. Diese verbindet sich mit deinem Twitch-Chat und schreibt Befehle in eine lokale Datei, die der Mod ausliest und als Event auslöst – dafür ist **keine** Verbindung des Mods selbst zum Internet nötig.
+FarmingLive can optionally be used together with a separate **FarmingLive app** (EXE). It connects to your Twitch chat and writes commands into a local file, which the mod reads and turns into events – no internet connection is required by the mod itself.
 
-📥 **Download der App:** *[Github-Link hier einfügen]*
+📥 **App download:** *[insert Github link here]*
 
-Ohne die App funktioniert der Mod vollständig eigenständig über das Event-Menü und die Konsole.
+Without the app, the mod works fully standalone through the event menu and the console.
 
-### Twitch-Chat-Befehle
+### Twitch Chat Commands
 
-Diese Befehle tippen deine Zuschauer in deinen Twitch-Chat (nicht im Spiel):
+Your viewers type these commands in your Twitch chat (not in the game):
 
-**Punkte & Hilfe**
+**Points & Help**
 ```
 !flpunkte
 !flhelp
 ```
 
-**Sofort-Spiele**
+**Instant Games**
 ```
 !gamble 100
 !gamble alle
@@ -165,81 +165,81 @@ Diese Befehle tippen deine Zuschauer in deinen Twitch-Chat (nicht im Spiel):
 !steal <user>
 ```
 
-**Duell**
+**Duel**
 ```
 !duel <user> 100
 !accept
 ```
 
-**Coup (Gruppen-Event)**
+**Heist (Group Event)**
 ```
 !heist join 100
 ```
 
-**Crash-Game**
+**Crash Game**
 ```
 !silo 100
 !silo cashout
 ```
 
-**Aussaat (Langzeit-Investment)**
+**Sowing (Long-Term Investment)**
 ```
 !saatgut 100
 ```
 
-**Lotterie**
+**Lottery**
 ```
 !lottery 5
 !lotterie 5
 ```
 
-**Schrott (Trostpreis-Währung)**
+**Scrap (Consolation Currency)**
 ```
 !schrott
 !schrott einlösen
 ```
 
-**Kuh-Karten**
+**Cow Cards**
 ```
 !kuh kaufen
 !kuh verkaufen <name>
 !kuh inventar
 ```
 
-**Kuhrennen**
+**Cow Race**
 ```
-!kuhrennen <kartenname>
-!kuhrennen <kartenname> 100
-!kuhrennen <kartenname> karte
+!kuhrennen <cardname>
+!kuhrennen <cardname> 100
+!kuhrennen <cardname> karte
 ```
 
-**Event-Einlösung mit Punkten**
+**Point-Based Event Redemption**
 ```
 !fllösen <eventname>
 !flspin
 ```
 
-Ein-/Ausschalten und Feintuning der einzelnen Chat-Games: **FarmingLive-App → Einstellungen → "Chat Games ..."-Kategorien**.
+Enable/disable and fine-tune each chat game: **FarmingLive app → Settings → "Chat Games ..." categories**.
 
-## Mehrsprachigkeit
+## Languages
 
-FarmingLive unterstützt aktuell:
-- 🇩🇪 Deutsch
-- 🇬🇧 Englisch
-- 🇫🇷 Französisch
+FarmingLive currently supports:
+- 🇬🇧 English
+- 🇩🇪 German
+- 🇫🇷 French
 
-Die Sprache wird automatisch anhand der Spielsprache erkannt.
+The language is detected automatically based on the game's language setting.
 
 ## Multiplayer
 
-FarmingLive ist vollständig multiplayer-fähig. Events werden serverseitig synchronisiert, sodass alle Spieler auf einem Server dieselben Effekte sehen.
+FarmingLive fully supports multiplayer. Events are synchronized server-side, so every player on a server sees the same effects.
 
 ## Support & Feedback
 
-- 💬 Discord: *[Link einfügen]*
-- 🐦 Twitch: *[Link einfügen]*
-- 🐛 Bugs & Feature-Wünsche: über die [Issues](../../issues) dieses Repos
+- 💬 Discord: *[insert link]*
+- 🐦 Twitch: *[insert link]*
+- 🐛 Bugs & feature requests: via this repo's [Issues](../../issues)
 
 ---
 
-Danke, dass du FarmingLive nutzt! 🚜
+Thanks for using FarmingLive! 🚜
