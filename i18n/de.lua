@@ -1,0 +1,193 @@
+FARMINGLIVE_I18N = {
+  EVENTMENU_HINT           = "Event auswählen und mit OK auslösen.",
+  EVENTMENU_NO_EVENTS      = "-- keine Events verfügbar --",
+
+  EVENTLABEL_adjustDiesel        = "Diesel-Füllstand zufällig ändern",
+  EVENTLABEL_AdjustMoney         = "Geld anpassen",
+  EVENTLABEL_AttachmentDrop      = "Anbaugerät abwerfen",
+  EVENTLABEL_lockDoor            = "Motor blockieren & Tür verriegeln",
+  EVENTLABEL_BlockEngine         = "Motor blockieren",
+  EVENTLABEL_cameraFun           = "Kamera-Spaß",
+  EVENTLABEL_lockInteriorCam     = "Innenkamera sperren",
+  EVENTLABEL_ClearAll            = "Tank leeren",
+  EVENTLABEL_detachAll           = "Alle Anbaugeräte abkoppeln",
+  EVENTLABEL_BlockTab            = "Fahrzeugwechsel sperren",
+  EVENTLABEL_DriveThat           = "Zufälliges Fahrzeug erzwingen",
+  EVENTLABEL_SetDrivingDirection = "Fahrtrichtung erzwingen",
+  EVENTLABEL_FadeScreen          = "Bildschirm abdunkeln",
+  EVENTLABEL_FlatTire            = "Reifenplatzer",
+  EVENTLABEL_SteerBan            = "Lenkrichtung verbieten",
+  EVENTLABEL_HonkiHonkiHonk      = "Hupe aktivieren",
+  EVENTLABEL_InvertControls      = "Steuerung invertieren",
+  EVENTLABEL_launchVehicle       = "Fahrzeug in die Luft schießen",
+  EVENTLABEL_MathGame            = "Matherätsel",
+  EVENTLABEL_Uselessnotifi       = "Nutzlose Benachrichtigung",
+  EVENTLABEL_showSimu            = "Simu-Nachricht anzeigen",
+  EVENTLABEL_showHi              = "Grußnachricht anzeigen",
+  EVENTLABEL_RandomCam           = "Zufällige Kamera",
+  EVENTLABEL_RandomSteer         = "Zufällige Lenkstörung",
+  EVENTLABEL_RandomTabTrap       = "Tab-Falle (mehrfacher Fahrzeugwechsel)",
+  EVENTLABEL_SetBroken           = "Fahrzeug kaputt setzen",
+  EVENTLABEL_SetDirt             = "Fahrzeug einschmutzen",
+  EVENTLABEL_SpeedLimit          = "Geschwindigkeitsbegrenzung setzen",
+  EVENTLABEL_MassChange          = "Gewicht temporär erhöhen",
+  EVENTLABEL_SetRandomTime       = "Zufällige Uhrzeit setzen",
+  EVENTLABEL_TireParty           = "Reifen-Hüpfparty",
+  EVENTLABEL_TireChaos           = "Reifen-Chaos (zufällig)",
+  EVENTLABEL_SwitchSeat          = "Fahrzeug wechseln",
+  EVENTLABEL_LockOut             = "Aus Fahrzeug aussperren",
+  EVENTLABEL_GoWalk              = "Spieler zum Laufen zwingen",
+  EVENTLABEL_toggleWipers        = "Scheibenwischer umschalten",
+  EVENTLABEL_UselessBox          = "Infobox anzeigen",
+
+  BLOCK_TAB_MESSAGE        = "%p hat dir für %d Minuten den Teleporter gestohlen – jetzt heißt es marschieren!",
+  BLOCK_TAB_UNBLOCK        = "Der Teleporter wurde zurückgebracht – Zeit, wieder Fahrzeuge zu tabben!",
+  BLOCK_TAB_TRY            = "Nix da! %p hat dir den Tab-Knopf für %d Minuten geklaut – Zeit für einen Spaziergang!",
+
+  DRIVEDIR_WARN            = "%p hat Mitleid mit den Bäumen auf deiner Strecke und will, dass du jetzt für %s nur %d fährst!",
+  DRIVEDIR_RESET           = "Du bist erlöst! Fahren in jede Richtung ist wieder erlaubt. Zeig uns, wie schnell du dich wieder verfahren kannst!",
+  DRIVEDIR_BLOCKWARN       = "Du bist ein Naturtalent... im Falschfahren! Noch %d Sekunden, bis dein Motor sich verabschiedet!",
+  DRIVEDIR_FORWARD         = "Vorwärts",
+  DRIVEDIR_BACKWARD        = "Rückwärts",
+
+  CAMERA_WARN              = "%p wird gleich deine Sicht versauen! Blockierung in %d Sekunden!",
+  CAMERA_BLOCKED           = "%p hat beschlossen, deine Kamera für %d Minuten in die Stratosphäre zu schicken!",
+  CAMERA_UNBLOCKED         = "%p hat beschlossen, dir deine Sicht zurückzugeben. Glück gehabt!",
+
+  INVERT_WARN              = "%p hat deine Steuerung invertiert für %d Minuten – links ist jetzt rechts!",
+  INVERT_BLOCK             = "%p: Steuerung bleibt invertiert – noch %d Sekunden reine Verwirrung!",
+  INVERT_UNBLOCK           = "%p hat die Inversion aufgehoben – Steuerung wieder normal!",
+
+  FORBIDDIR_LEFT           = "Links",
+  FORBIDDIR_RIGHT          = "Rechts",
+  FORBIDDIR_BLOCKWARN      = "%p hat dir Lenkverbot nach %d erteilt – du bleibst für %s auf gerader Spur!",
+  FORBIDDIR_BLOCKWARNTRY   = "Lenken nach %d gesperrt! Noch %s bis zur Freiheit!",
+  FORBIDDIR_BLOCKWARNRESET = "%p hat das Lenkverbot aufgehoben – gib Gas und ab geht’s!",
+
+  RANDOMSTEER_BLOCKSTART   = "%p lacht sich schlapp – deine Lenkung richtet für einige Minuten ihr eigenes Durcheinander an!",
+  RANDOMSTEER_SEGMENTSTART = "%s: Automatische Lenkung %s für %d Sekunden!",
+  RANDOMSTEER_BLOCKEND     = "%p ist fertig mit Zirkus – Deine Lenkung ist wieder frei!",
+  RANDOMSTEER_DIRLEFT      = "links",
+  RANDOMSTEER_DIRRIGHT     = "rechts",
+
+  LAUNCHVEH_WARN           = "%p hat dein Fahrzeug in die Luft geschossen!",
+
+  INTERIORCAM_WARN         = "First-Person-Party: %p sperrt dich %d Minuten hinter der Windschutzscheibe ein!",
+  INTERIORCAM_BLOCK        = "Nur noch %p Sekunden Cockpit-Marathon, dann gibt’s wieder Rundumblick!",
+  INTERIORCAM_UNBLOCK      = "Glück gehabt: %p entlässt dich aus dem Cockpit-Knast!",
+
+  TOGWIPER_WARN            = "Wisch-Express! %p aktiviert deine Wischer für %d Minuten – Vorhang auf für den Tropfentanz.",
+  TOGWIPER_DEACT           = "Wischer-Finale: %p bringt die Scheiben wieder in Parkposition.",
+
+  ADJUST_FUEL_GET          = "%p hat dir %d% Diesel geschenkt! Das macht deinen Tank glücklich!",
+  ADJUST_FUEL_REM          = "%p hat dir %d% Diesel geklaut! Pass besser auf!",
+
+  BLOCKANDLOCK_KEYOUT      = "%p hat deinen Schlüssel aus dem Fenster geworfen, um zu testen, wie schnell du aussteigen kannst! Viel Spaß bei der Schatzsuche!",
+  BLOCKANDLOCK_KEYFOUND    = "Glückwunsch! Du hast den Schlüssel wiedergefunden! Jetzt kannst du den Motor endlich wieder starten, bevor %p ihn wieder aus dem Fenster wirft!",
+
+  TRIGGERHONK_WARN         = "Oh nein, %p hat die Hupe gefunden! Ich hoffe, die Nachbarn haben keine Pläne für die nächsten 15 Sekunden.",
+
+  SHOWUSER_MSG1            = "%p präsentiert dir die blinkendste Nachricht des Jahrhunderts – Blinken bis zum Umfallen für 15 Sekunden!",
+  SHOWUSER_MSG2            = "%p hat einen Masterplan: Dich 15 Sekunden lang mit dieser blinkenden Nachricht aus der Ruhe zu bringen!",
+  SHOWUSER_MSG3            = "%p weiß, dass du das heimlich liebst – 15 Sekunden Blinken in voller Pracht, nur für dich!",
+  SHOWUSER_MSG4            = "Überraschung! %p hat dir 15 Sekunden puren Blink-Wahnsinn geschenkt – du wirst es nicht vergessen!",
+  SHOWUSER_MSG5            = "Keine Sorge, %p sorgt für Abwechslung: 15 Sekunden Blinken und du bist wieder fit!",
+  SHOWHI_MSG               = "%p verschwendet gerade Punkte für das auffälligste, unnötigste 'Hi' der Welt. Hoffentlich war es das wert.",
+
+  CLEAR_FUEL_MESSAGE       = "%p hat dein Fahrzeug (%s) auf einen „Leerstand“ gebracht – alles leer gepumpt!",
+  SET_BROKEN_MESSAGE       = "%p hat deinem Fahrzeug (%s) eine kleine „Schönheitsoperation“ verpasst – jetzt ist es beschädigt.",
+  ADJUST_MONEY_POSITIVE    = "Kredit von %p: Dein Geldbeutel wurde um %d schwerer!",
+  ADJUST_MONEY_NEGATIVE    = "%p hat dir %d geklaut und sich als Finanzberater ausgegeben. Ihre 'Beratung' scheint eher ein 'Raub' gewesen zu sein!",
+  SET_DIRT_MESSAGE         = "%p hat dein Fahrzeug in ein mobiles Drecksloch verwandelt. Viel Spaß beim Saubermachen!",
+  SET_DIRT_CLEANMESSAGE    = "%p hat’s getan: Sauber gemacht. Ob es aus Reue oder Langeweile war, bleibt unklar.",
+  TEMPORARY_MASS_MESSAGE   = "%p hat dein Fahrzeug (%s) in ein „Schwerlasttransporter“ verwandelt – für 30 Sekunden ist es jetzt deutlich schwerer!",
+  SETTIME_MESSAGE          = "%p hat die Zeitmaschine angeworfen – es ist jetzt %d.",
+
+  SPEED_WARNING_LIMIT      = "%p hat die „Entspannungsfahrt“ aktiviert: %d Minuten bei maximal %s km/h – 0 km/h ist nicht akzeptabel!",
+  SPEED_WARNING_PAUSE      = "Motor wird in %d Sekunden blockiert, da das Fahrzeug beschlossen hat, zu pausieren! %p, vielleicht solltest du dem Fahrer sagen, dass Stillstand nicht das Ziel ist!",
+  SPEED_WARNING_OVERSPEED  = "Motor wird in %p Sekunden blockiert, weil der Fahrer mit über %d km/h denkt, er sei im nächsten Actionfilm! Überschreitung um %s km/h – vielleicht sollte er die Bremsen mal ausprobieren!",
+  SPEED_WARNING_BLOCKED    = "Regeln sind dazu da, beachtet zu werden! %p hat deinen Motor für %d Minuten und %s Sekunden blockiert, um dir eine Lektion über gute Fahrweise zu erteilen!",
+  BLOCKENGINE_STOPPED      = "%p, der Motor hat sich entschieden: eine Minute keine Bewegung, nur für dich!",
+  BLOCKENGINE_ACTIVE       = "%p, der Motor lebt wieder! Möge er dich nicht in deinen Albträumen verfolgen...",
+  BLOCKENGINE_IGNORED      = "%p, der Motor ignoriert den Fahrer noch für %d Sekunden – du hast ganze Arbeit geleistet!",
+  BLOCKENGINE_FAIL         = "Motorausfall! Dein Traktor will Luxus – und zwar einen Werkstattbesuch, bevor er wieder was tut.",
+
+  FADE_SCREEN_WARNING      = "%p hat beschlossen, dich in %d Sekunden im Dunkeln schmoren zu lassen – Licht ist überbewertet!",
+
+  WALKING_START            = "%p schickt dich auf Schusters Rappen: %d Minute(n) zu Fuß!",
+  WALKING_ENTERBLOCKED     = "%p sagt: Noch %d Sek., bevor du wieder einsteigen darfst!",
+  WALKING_DONE             = "Durchatmen! %p hat Gnade – Fußmarsch beendet.",
+  WALKING_WARN1            = "%p macht dich zum Marathonläufer – noch %s:%v Fußmarsch, dann bist du erlöst!",
+  WALKING_WARN2            = "%p hat deine Beine gefesselt: %s:%v bis zur Freiheit – beweg dich!",
+  WALKING_WARN3            = "%p grinst: Nur noch %s:%v stampfen!",
+  WALKING_WARN4            = "%p verkündet Bewegungsmodus: %s:%v Restzeit – bleib nicht stehen!",
+  WALKING_WARN5            = "%p gibt dir %s:%v fürs Cardio – lauf, lauf!",
+
+  RANDOMCAM_WARN          = "%p schaltet gleich die Kamera um (%d s).",
+  RANDOMCAM_SWITCHCAM     = "Explosiver Cut von %p – Kamera %d/%s ist jetzt live!",
+  RANDOMCAM_ROTATE        = "Drehmoment on fire: %p rotiert deine Perspektive um %d° – Weltansicht Reloaded!",
+  CYCLE_TOOFEW            = "Zu wenige tabbable Fahrzeuge.",
+  CYCLE_SWITCHED          = "%p flippt den Fahrzeugschalter: Neuer Flitzer (%d/%s) am Start!",
+  LOCKOUT_BANNED          = "%p hat dich für %d Min. aus %s verbannt – Zeit zum Kaffeetrinken!",
+  LOCKOUT_TRYENTER        = "%p: %s ist noch für %d Sekunden gesperrt – Geduld!",
+  LOCKOUT_FREED           = "Hurra! %p hat die Fesseln gelöst – %s kann wieder loslegen!",
+  
+  IDLECHAOS_START          = "%p aktiviert Leerlauf-Chaos: %d Minute(n) Überraschungen – nur, wenn du stehst!",
+  IDLECHAOS_TICK           = "%p lauert… Bleibst du noch %d Sek. stehen, passiert was.",
+  IDLECHAOS_EFFECT         = "%p würfelt: Effekt „%d“ ist aktiv!",
+  IDLECHAOS_END            = "%p beendet das Leerlauf-Chaos – weiter geht’s!",
+
+  IDLECHAOS_EFF_INVERT     = "Lenkung invertiert (links↔rechts)",
+  IDLECHAOS_EFF_BLINKER    = "Blinker vertauscht (L↔R)",
+  IDLECHAOS_EFF_WIPER      = "Wischer-Burst",
+  IDLECHAOS_EFF_HORN       = "Hupe",
+
+  FLAT_TIRE_START          = "%p schenkt dir für %d Minute(n) einen Platten – der Karren zieht nach %s und hoppelt!",
+  FLAT_TIRE_TICK           = "Plattfuß aktiv: noch %d Sek. – die Karre zerrt weiter nach %s.",
+  FLAT_TIRE_DONE           = "Werkstattzauber: %p hat den Plattfuß wieder beendet.",
+  FLAT_TIRE_NOSUPPORT      = "Hier lässt sich kein echter Reifen platt drücken – dieses Fahrzeug unterstützt den Effekt nicht sauber.",
+  FLAT_TIRE_PULLLEFT       = "links",
+  FLAT_TIRE_PULLRIGHT      = "rechts",
+
+  TIRE_PARTY_START         = "%p startet die Reifen-Hüpfparty für %d Minute(n)!",
+  TIRE_PARTY_FLAT          = "%p lässt die Reifen wieder einknicken – hopp!",
+  TIRE_PARTY_FULL          = "%p pumpt kurz wieder auf – und weiter geht der Zirkus!",
+  TIRE_PARTY_DONE          = "Reifenparty vorbei: %p gönnt den Pneus wieder Ruhe.",
+  TIRE_PARTY_NOSUPPORT     = "Hier gibt es keinen Reifen, den ich sauber für die Reifenparty verformen kann.",
+
+  TAB_TRAP_START          = "%p hämmert %d mal auf TAB – danach bist du für %d Minute(n) im Fahrzeug eingesperrt!",
+  TAB_TRAP_SWITCH         = "TAB-Chaos %d/%d – weiter geht die wilde Fahrzeugreise!",
+  TAB_TRAP_LOCKED         = "%p sperrt dich jetzt für %d Minute(n) im Fahrzeug ein!",
+  TAB_TRAP_TRY_EXIT       = "Nope! %p hält dich noch %d Sek. im Fahrzeug fest.",
+  TAB_TRAP_TRY_SWITCH     = "Kein Entkommen! %p blockt den Fahrzeugwechsel noch %d Sek.",
+  TAB_TRAP_DONE           = "Das TAB-Chaos ist vorbei – %p gibt dir wieder die Freiheit.",
+  TAB_TRAP_TOO_FEW        = "Zu wenig tabbable Fahrzeuge für TAB-Chaos.",
+
+
+DRIVE_THAT_START         = "%p schickt dich für %d Minute(n) in %v – fahr das jetzt!",
+DRIVE_THAT_LOCKED        = "%p sperrt dich jetzt für %d Minute(n) in %v ein!",
+DRIVE_THAT_TRY_EXIT      = "Nein nein – %p hält dich noch %d Sek. in %v fest.",
+DRIVE_THAT_TRY_SWITCH    = "Nix da! %p blockt den Wechsel aus %v noch %d Sek.",
+DRIVE_THAT_DONE          = "%p ist zufrieden – du darfst %v wieder verlassen.",
+DRIVE_THAT_FAILED        = "%v konnte dir nicht sauber aufgezwungen werden – das Event wurde abgebrochen.",
+DRIVE_THAT_TOO_FEW       = "Zu wenig tabbable Fahrzeuge für DriveThat.",
+
+
+MATHGAME_START            = "{player} startet MathGame: {total} Aufgaben warten. Lenke links für A und rechts für B.",
+MATHGAME_QUESTION         = "Mathe {index}/{total}: {expr} | Links: {left} | Rechts: {right}",
+MATHGAME_CORRECT          = "Richtig! {correct} war korrekt. Noch {remaining} Aufgabe(n).",
+MATHGAME_WRONG            = "Falsch! Richtig wäre {correct}. +{penalty} Strafminute(n). Noch {remaining} Aufgabe(n).",
+MATHGAME_TIMEOUT          = "Zu langsam! Richtig wäre {correct}. +{penalty} Strafminute(n). Noch {remaining} Aufgabe(n).",
+MATHGAME_RESULT_NOPENALTY = "MathGame geschafft – keine Strafminuten.",
+MATHGAME_RESULT_PENALTY   = "MathGame beendet – insgesamt {penaltyTotal} Strafminute(n). Der Motor wird jetzt blockiert.",
+MATHGAME_PENALTY_START    = "Mathe-Strafe aktiv: Motor für {penaltyTotal} Minute(n) blockiert.",
+MATHGAME_PENALTY_TICK     = "Mathe-Strafe läuft noch {seconds} Sek.",
+MATHGAME_PENALTY_DONE     = "Mathe-Strafe beendet.",
+
+}
+
+if type(FARMINGLIVE_I18N_EXPORT) == "function" then
+    FARMINGLIVE_I18N_EXPORT(FARMINGLIVE_I18N)
+else
+    _G.__FL_I18N_CAPTURE = FARMINGLIVE_I18N
+end
