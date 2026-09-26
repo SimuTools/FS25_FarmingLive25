@@ -139,7 +139,7 @@ FarmingLive has its own message/HUD system with many display modes.
 
 FarmingLive can optionally be used together with a separate **FarmingLive app** (EXE). It connects to your Twitch chat and writes commands into a local file, which the mod reads and turns into events – no internet connection is required by the mod itself.
 
-📥 **App download:** *https://download.simutools.de/filebase/index.php?file/13-fs25-farminglive/*
+📥 **Twitch App:** [Download]([https://die-url.de](https://download.simutools.de/filebase/index.php?file/13-fs25-farminglive/))
 
 Without the app, the mod works fully standalone through the event menu and the console.
 
@@ -236,8 +236,8 @@ FarmingLive fully supports multiplayer. Events are synchronized server-side, so 
 
 ## Support & Feedback
 
-- 💬 Discord: *[insert link]*
-- 🐦 Twitch: *[insert link]*
+- 💬 Discord: *https://discord.gg/C9yRZmQ6M3*
+- 🐦 Twitch: *https://www.twitch.tv/simutools*
 - 🐛 Bugs & feature requests: via this repo's [Issues](../../issues)
 
 ---
