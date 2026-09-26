@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement profile="newLayer"/>
+    <Bitmap profile="dialogFullscreenBg" id="dialogBg"/>
+
+    <GuiElement profile="fl_eventDialogBg" id="dialogElement">
+        <ThreePartBitmap profile="fs25_dialogBgMiddleSmall"/>
+        <ThreePartBitmap profile="fs25_dialogBgTopSmall"/>
+        <ThreePartBitmap profile="fs25_dialogBgBottom"/>
+
+        <GuiElement profile="fs25_dialogContentContainer">
+            <Text profile="fs25_dialogTitle" id="dialogTitleElement" text="FarmingLive" position="0px -35px"/>
+
+            <GuiElement profile="fl_eventContentContainer">
+                <Text profile="fl_eventHintText" id="hintTextElement" text="-"/>
+
+                <Bitmap profile="fl_eventOptionBg">
+                    <MultiTextOption profile="fl_eventOption" id="eventOptionElement"/>
+                </Bitmap>
+            </GuiElement>
+        </GuiElement>
+
+        <BoxLayout profile="fs25_dialogButtonBox" id="buttonsPC">
+            <Button profile="buttonOK" text="$l10n_button_ok" onClick="onClickOk" id="yesButton"/>
+            <Bitmap profile="fs25_dialogButtonBoxSeparator"/>
+            <Button profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="noButton"/>
+        </BoxLayout>
+    </GuiElement>
+
+    <GUIProfiles>
+        <Profile name="fl_eventDialogBg" extends="fs25_dialogBg">
+            <size value="620px 360px"/>
+        </Profile>
+
+        <Profile name="fl_eventContentContainer" extends="emptyPanel" with="anchorTopCenter">
+            <position value="0px -160px"/>
+            <size value="500px 160px"/>
+        </Profile>
+
+        <Profile name="fl_eventHintText" extends="fs25_textDefault" with="anchorTopCenter">
+            <position value="0px 0px"/>
+            <size value="480px 30px"/>
+            <textSize value="16px"/>
+            <textAlignment value="center"/>
+            <textColor value="1 1 1 0.82"/>
+        </Profile>
+
+        <Profile name="fl_eventOptionBg" extends="baseReference" with="anchorTopCenter">
+            <position value="0px 50px"/>
+            <size value="400px 60px"/>
+            <imageColor value="$preset_colorTransparent"/>
+        </Profile>
+
+        <Profile name="fl_eventOption" extends="baseReference" with="anchorMiddleLeft">
+            <position value="0px 0px"/>
+            <size value="380px 36px"/>
+            <autoAddDefaultElements value="true"/>
+            <defaultProfileButtonLeft value="fs25_multiTextOptionLeft"/>
+            <defaultProfileButtonRight value="fs25_multiTextOptionRight"/>
+            <defaultProfileText value="fs25_multiTextOptionText"/>
+            <defaultProfileBgThreePart value="fs25_multiTextOptionBg"/>
+            <focusOnHighlight value="true"/>
+            <wrap value="true"/>
+        </Profile>
+    </GUIProfiles>
+</GUI>

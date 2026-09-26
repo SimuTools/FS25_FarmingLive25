@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="113">
+	<author>SimuTools</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>FarmingLive25</en>
+    </title>
+    <description>
+        <de><![CDATA[Bringt zufällige Chaos-Events ins Spiel – vom blockierten Motor über invertierte Steuerung bis zum Reifenplatzer.
+
+Alle Events lassen sich direkt im Spiel per Tastendruck (Taste 0) über ein Auswahlmenü auslösen, alternativ über Konsolenbefehle (siehe Github).
+
+FarmingLive lässt sich Optional in Kombination mit einer EXE für Twitch verwenden, Zuschauer haben dann die Möglichkeit anhand von Befehlen oder per Kanalpunkte diese Events auszulösen, die EXE dazu findet ihr im Github.
+
+Github Link: 
+
+Folgende Events gibt es aktuell, diese haben alle eine zufällige Laufzeit:
+- adjustDiesel - Diesel-Füllstand zufällig ändern
+- AdjustMoney - Geld  zufällig ändern
+- AttachmentDrop - Anbaugerät abwerfen
+- lockDoor - Motor blockieren & Tür verriegeln
+- BlockEngine - Motor blockieren
+- cameraFun - Kamera-Spaß
+- lockInteriorCam - in Innenkamera einsperren
+- ClearAll - Tank leeren
+- detachAll - Alle Anbaugeräte abkoppeln
+- BlockTab - Fahrzeugwechsel sperren
+- DriveThat - Zufälliges Fahrzeug erzwingen
+- SetDrivingDirection - Fahrtrichtung erzwingen
+- FadeScreen - Bildschirm abdunkeln
+- FlatTire - Reifenplatzer
+- SteerBan - Lenkrichtung verbieten
+- HonkiHonkiHonk - Hupe aktivieren
+- InvertControls - Steuerung invertieren
+- launchVehicle - Fahrzeug in die Luft schießen
+- MathGame - Matherätsel
+- Uselessnotifi - Nutzlose Benachrichtigung
+- showSimu - Simu-Nachricht anzeigen
+- showHi - Grußnachricht anzeigen
+- RandomCam - Zufällige Kamera
+- RandomSteer - Zufällige Lenkstörung
+- RandomTabTrap - Tab-Falle (mehrfacher Fahrzeugwechsel)
+- SetBroken - Fahrzeug kaputt setzen
+- SetDirt - Fahrzeug einschmutzen
+- SpeedLimit - Geschwindigkeitsbegrenzung setzen
+- MassChange - Gewicht temporär erhöhen
+- SetRandomTime - Zufällige Uhrzeit setzen
+- TireParty - Reifen-Hüpfparty
+- TireChaos - Reifen-Chaos (zufällig)
+- SwitchSeat - Fahrzeug wechseln
+- LockOut - Aus Fahrzeug aussperren
+- GoWalk - Spieler zum Laufen zwingen
+- toggleWipers - Scheibenwischer umschalten
+- UselessBox - Infobox anzeigen
+
+für mehr Details zu den Events schaue auf Github vorbei]]></de>
+        <en><![CDATA[Adds random chaos events to the game – from a blocked engine and inverted controls to a flat tire.
+
+All events can be triggered directly in-game via a hotkey (key 0) through a selection menu, or alternatively via console commands (see Github).
+
+FarmingLive can optionally be used together with an EXE for Twitch, giving viewers the ability to trigger these events via commands or channel points. You can find the EXE on Github.
+
+Github Link:
+
+The following events currently exist, all with a random duration:
+- adjustDiesel - Randomize diesel level
+- AdjustMoney - Randomly change money
+- AttachmentDrop - Drop an attachment
+- lockDoor - Block engine & lock door
+- BlockEngine - Block engine
+- cameraFun - Camera fun
+- lockInteriorCam - Lock inside interior camera
+- ClearAll - Empty fuel tank
+- detachAll - Detach all implements
+- BlockTab - Block vehicle switching
+- DriveThat - Force random vehicle
+- SetDrivingDirection - Enforce driving direction
+- FadeScreen - Fade screen
+- FlatTire - Flat tire
+- SteerBan - Forbid steering direction
+- HonkiHonkiHonk - Trigger horn
+- InvertControls - Invert controls
+- launchVehicle - Launch vehicle
+- MathGame - Math game
+- Uselessnotifi - Useless notification
+- showSimu - Show Simu message
+- showHi - Show greeting
+- RandomCam - Random camera
+- RandomSteer - Random steering interference
+- RandomTabTrap - Tab trap (forced vehicle switching)
+- SetBroken - Break vehicle
+- SetDirt - Get vehicle dirty
+- SpeedLimit - Set speed limit
+- MassChange - Temporarily increase mass
+- SetRandomTime - Set random time
+- TireParty - Tire bounce party
+- TireChaos - Random tire chaos
+- SwitchSeat - Switch vehicle
+- LockOut - Lock player out of vehicle
+- GoWalk - Force player to walk
+- toggleWipers - Toggle wipers
+- UselessBox - Show info box
+
+For more details on the events, check out Github]]></en>
+        <fr><![CDATA[Ajoute des événements chaotiques aléatoires au jeu – du moteur bloqué aux commandes inversées, en passant par le pneu crevé.
+
+Tous les événements peuvent être déclenchés directement en jeu via un raccourci clavier (touche 0) à travers un menu de sélection, ou alternativement via des commandes console (voir Github).
+
+FarmingLive peut être utilisé en option avec un EXE pour Twitch, permettant aux spectateurs de déclencher ces événements via des commandes ou des points de chaîne. Vous trouverez l'EXE sur Github.
+
+Lien Github :
+
+Voici les événements actuellement disponibles, tous avec une durée aléatoire :
+- adjustDiesel - Modifier aléatoirement le niveau de diesel
+- AdjustMoney - Modifier aléatoirement l'argent
+- AttachmentDrop - Larguer un outil
+- lockDoor - Bloquer le moteur et verrouiller la porte
+- BlockEngine - Bloquer le moteur
+- cameraFun - Caméra rigolote
+- lockInteriorCam - Enfermer dans la caméra intérieure
+- ClearAll - Vider le réservoir
+- detachAll - Détacher tous les outils
+- BlockTab - Bloquer le changement de véhicule
+- DriveThat - Forcer un véhicule aléatoire
+- SetDrivingDirection - Forcer le sens de conduite
+- FadeScreen - Assombrir l'écran
+- FlatTire - Pneu crevé
+- SteerBan - Interdire une direction de braquage
+- HonkiHonkiHonk - Activer le klaxon
+- InvertControls - Inverser les commandes
+- launchVehicle - Faire décoller le véhicule
+- MathGame - Jeu de calcul
+- Uselessnotifi - Notification inutile
+- showSimu - Afficher un message Simu
+- showHi - Afficher un message de bienvenue
+- RandomCam - Caméra aléatoire
+- RandomSteer - Interférence de direction aléatoire
+- RandomTabTrap - Piège de changement de véhicule
+- SetBroken - Casser le véhicule
+- SetDirt - Salir le véhicule
+- SpeedLimit - Définir une limite de vitesse
+- MassChange - Augmenter temporairement la masse
+- SetRandomTime - Définir une heure aléatoire
+- TireParty - Fête de rebonds de pneus
+- TireChaos - Chaos de pneus aléatoire
+- SwitchSeat - Changer de véhicule
+- LockOut - Exclure du véhicule
+- GoWalk - Forcer le joueur à marcher
+- toggleWipers - Activer les essuie-glaces
+- UselessBox - Afficher une boîte d'info
+
+Pour plus de détails sur les événements, consultez Github]]></fr>
+    </description>
+    <iconFilename>icon_farminglive25.dds</iconFilename>
+    <multiplayer supported="true"/>
+	<extraSourceFiles>
+        <sourceFile filename="main.lua" />
+        <sourceFile filename="functions/Defaults.lua" />
+        <sourceFile filename="functions/I18n.lua" />
+        <sourceFile filename="functions/Common.lua" />
+        <sourceFile filename="functions/Player.lua" />
+        <sourceFile filename="functions/Ui.lua" />
+        <sourceFile filename="functions/Vehicle.lua" />
+        <sourceFile filename="functions/Headtracking.lua" />
+        <sourceFile filename="functions/DriveDirection.lua" />
+        <sourceFile filename="functions/VehiclePhysicsHook.lua" />
+        <sourceFile filename="functions/TireEffects.lua" />
+        <sourceFile filename="functions/Core.lua" />
+        <sourceFile filename="functions/Commands.lua" />
+        <sourceFile filename="functions/Config.lua" />
+        <sourceFile filename="functions/Debug.lua" />
+        <sourceFile filename="functions/EventComposer.lua" />
+        <sourceFile filename="functions/effects/AdjustDiesel.lua" />
+        <sourceFile filename="functions/effects/AdjustMoney.lua" />
+        <sourceFile filename="functions/effects/BlockAndLock.lua" />
+        <sourceFile filename="functions/effects/BlockMotor.lua" />
+        <sourceFile filename="functions/effects/CameraFun.lua" />
+        <sourceFile filename="functions/effects/CameraLockInterior.lua" />
+        <sourceFile filename="functions/effects/ClearFuel.lua" />
+        <sourceFile filename="functions/effects/DetachAll.lua" />
+        <sourceFile filename="functions/effects/AttachmentDrop.lua" />
+        <sourceFile filename="functions/effects/DriveThat.lua" />
+        <sourceFile filename="functions/effects/DisableTab.lua" />
+        <sourceFile filename="functions/effects/EnforceDrivingDirection.lua" />
+        <sourceFile filename="functions/effects/FadeScreen.lua" />
+        <sourceFile filename="functions/effects/FlatTireChaos.lua" />
+        <sourceFile filename="functions/effects/ForbidSteeringDirection.lua" />
+        <sourceFile filename="functions/effects/Honk.lua" />
+        <sourceFile filename="functions/effects/IdleChaos.lua" />
+        <sourceFile filename="functions/effects/InvertControls.lua" />
+        <sourceFile filename="functions/effects/LaunchVehicle.lua" />
+        <sourceFile filename="functions/effects/Messages.lua" />
+        <sourceFile filename="functions/effects/MathGame.lua" />
+        <sourceFile filename="functions/effects/RandomCamera.lua" />
+        <sourceFile filename="functions/effects/RandomSteeringInterference.lua" />
+        <sourceFile filename="functions/effects/RandomTabTrap.lua" />
+        <sourceFile filename="functions/effects/SetBroken.lua" />
+        <sourceFile filename="functions/effects/SetDirt.lua" />
+        <sourceFile filename="functions/effects/SetSpeedLimit.lua" />
+        <sourceFile filename="functions/effects/TempMass.lua" />
+        <sourceFile filename="functions/effects/TireBounceParty.lua" />
+        <sourceFile filename="functions/effects/TimeAndUi.lua" />
+        <sourceFile filename="functions/effects/VehicleSwitch.lua" />
+        <sourceFile filename="functions/effects/Walking.lua" />
+        <sourceFile filename="functions/effects/Wipers.lua" />
+
+        <sourceFile filename="events/IdleChaos.lua" />
+        <sourceFile filename="events/FadeScreen.lua" />
+        <sourceFile filename="events/FlatTireChaos.lua" />
+        <sourceFile filename="events/Walking.lua" />
+        <sourceFile filename="events/ClearFuel.lua" />
+        <sourceFile filename="events/AdjustDiesel.lua" />
+        <sourceFile filename="events/SetBroken.lua" />
+        <sourceFile filename="events/AdjustMoney.lua" />
+        <sourceFile filename="events/SetDirt.lua" />
+        <sourceFile filename="events/Messages.lua" />
+        <sourceFile filename="events/MathGame.lua" />
+        <sourceFile filename="events/TempMass.lua" />
+        <sourceFile filename="events/TireBounceParty.lua" />
+        <sourceFile filename="events/TireChaos.lua" />
+        <sourceFile filename="events/BlockAndLock.lua" />
+        <sourceFile filename="events/Honk.lua" />
+        <sourceFile filename="events/TimeAndUi.lua" />
+        <sourceFile filename="events/DetachAll.lua" />
+        <sourceFile filename="events/AttachmentDrop.lua" />
+        <sourceFile filename="events/DriveThat.lua" />
+        <sourceFile filename="events/DisableTab.lua" />
+        <sourceFile filename="events/VehicleSwitch.lua" />
+        <sourceFile filename="events/SetSpeedLimit.lua" />
+        <sourceFile filename="events/BlockMotor.lua" />
+        <sourceFile filename="events/EnforceDrivingDirection.lua" />
+        <sourceFile filename="events/ForbidSteeringDirection.lua" />
+        <sourceFile filename="events/RandomSteeringInterference.lua" />
+        <sourceFile filename="events/RandomTabTrap.lua" />
+        <sourceFile filename="events/InvertControls.lua" />
+        <sourceFile filename="events/CameraLockInterior.lua" />
+        <sourceFile filename="events/RandomCamera.lua" />
+        <sourceFile filename="events/CameraFun.lua" />
+        <sourceFile filename="events/Wipers.lua" />
+        <sourceFile filename="events/LaunchVehicle.lua" />
+
+        <sourceFile filename="ext/FarmingLiveAddMoneyEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveSetMassEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveClearFuelEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveDetachImplementsEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveAttachmentDropEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveAdjustDieselEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveSpeedLimitBlockEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveLockDoorEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveBlockMotorEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveDriveDirBlockEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveLaunchVehicleEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveSetDirtEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveSetBrokenEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveSetTimeEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveFlatTireEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveTirePartyEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveRandomSteerEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveForbidSteerEvent.lua" />
+        <sourceFile filename="ext/FarmingLiveInvertControlsEvent.lua" />
+        <sourceFile filename="functions/Register.lua" />
+        <sourceFile filename="functions/EventMenu.lua" />
+        <sourceFile filename="gui/FarmingLiveEventDialog.lua" />
+    </extraSourceFiles>
+
+</modDesc>
